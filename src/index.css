@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+     font-family: "Rubik", sans-serif;
+     line-height: 1.5;
+     font-weight: 400;
+
+     color-scheme: light dark;
+     color: #bdc1ff;
+     background-color: hsl(226, 43%, 10%);
+
+     font-synthesis: none;
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     box-sizing: border-box;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+     padding: 40px 20px;
+}
+
+.card:hover h3 {
+     color: #bdc1ff;
+}
